@@ -1,0 +1,54 @@
+html,
+body {
+	font-family:sans-serif;
+	margin: 0;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: top;
+	background: transparent;
+	box-sizing: border-box;
+}
+
+/* Some pimping */
+
+button,
+input {
+	padding: 0.7em;
+}
+.form {
+	padding: 2em;
+    max-width: 600px;
+}
+
+.input-section {
+	margin-bottom: 0.5em;
+}
+
+
+
+
+/* Dator js styles, this you need */
+.dator-error-message {
+	display: none;
+	background-color: #d0021b;
+	color: #ffffff;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+
+.dator-error-marker {
+	box-shadow: 3px 0 0px #d0021b inset;
+}
+
+.dator-mandatory-marker {
+	background-color: #e1ffe1;
+}

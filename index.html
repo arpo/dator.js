@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dator.js</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+
+	<div class="form">
+
+		<div class="dator-error-message">
+			There seems to be a problem
+			<div class="dator-out"></div>
+		</div>
+
+		<div class="input-section">
+			<input id="yourName" type="text" value="" data-validate="mandatory" placeholder="Your name">
+		</div>
+		
+		<div class="input-section">
+			<input id="yourEmail" type="text" value="" data-validate="email|mandatory" placeholder="Your e-mail">
+		</div>
+
+		<div class="input-section">
+			<input id="yourAge" type="text" value="" data-validate="wholePositive" placeholder="Your age">
+		</div>
+
+		<div class="input-section">
+			<input id="aDecimal" type="text" value="" data-validate="fractionalPositiveNegative" placeholder="Can be float">
+		</div>
+
+		<div class="input-section">
+			<button class="ok">Ok</button>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="assets/js/Dator.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			NIBS.main.init();
+		});
+	</script>
+</body>
+</html>
